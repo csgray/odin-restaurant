@@ -1,0 +1,26 @@
+{
+  "name": "odin-restaurant",
+  "version": "0.0.0",
+  "description": "A restaurant homepage as part of the Odin Project's intermediate JavaScript course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csgray/odin-restaurant.git"
+  },
+  "author": "Corey Gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csgray/odin-restaurant/issues"
+  },
+  "homepage": "https://github.com/csgray/odin-restaurant#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
