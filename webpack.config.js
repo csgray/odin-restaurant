@@ -23,4 +23,18 @@ export default {
             template: "./src/template.html",
         }),
     ],
+    module: {
+        rules: [
+            // Bundle CSS
+            {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"], // Order matters!
+            },
+            // Bundle images referenced in HTML
+            {
+                test: /\.html$/i,
+                loader: "html-loader",
+            },
+        ]
+    }
 };
