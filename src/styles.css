@@ -84,6 +84,14 @@ html {
 
             max-inline-size: 66ch;
             text-align: justify;
+
+            ul {
+                list-style: none;
+
+                display: flex;
+                flex-direction: column;
+                gap: 1vw;
+            }
         }
 
         footer {
