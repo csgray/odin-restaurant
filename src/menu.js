@@ -31,7 +31,7 @@ const volkaniteDisintegrator = beerList.appendChild(document.createElement("li")
 const volkaniteDisintegratorTitle = volkaniteDisintegrator.appendChild(document.createElement("h5"));
 volkaniteDisintegratorTitle.textContent = "Volkanite Quadrupel";
 const volkaniteDisintegratorDescription = volkaniteDisintegrator.appendChild(document.createElement("p"));
-volkaniteDisintegratorDescription.textContent = "This beer defies description, and its production is a closely guarded secret. It's available in limited quantities after a Kinhosts recover the necessary ingredients, and that Kinhost's Kahl always gets the first glass.";
+volkaniteDisintegratorDescription.textContent = "This beer defies description, and its production is a closely guarded secret. It's available in limited quantities after a Kinhost recovers the necessary ingredients, and that Kinhost's Kahl always gets the first glass.";
 
 export default function () {
     content.appendChild(headingDiv);
