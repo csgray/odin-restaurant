@@ -75,7 +75,7 @@ html {
         #content {
             height: 60%;
             width: 60%;
-            padding: 3vh 4vw;
+            padding: 3vh clamp(10px, 4vw, 80px);
 
             display: flex;
             flex-direction: column;
